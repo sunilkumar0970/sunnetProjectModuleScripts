@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.sunnet.Test.TC_Login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TC_LoginPage"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="getBrowser"/>
+          <include name="afterSuite"/>
+          <include name="closeAllDriver"/>
+          <include name="getBrowserType"/>
+        </methods>
+      </class> <!-- com.sunnet.Test.TC_Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
